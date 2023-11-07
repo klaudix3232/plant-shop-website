@@ -204,9 +204,7 @@ text-align: justify;
     border: 0.5px solid rgb(217, 215, 215);
     padding: 20px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px ;
-    
-
+    border-bottom-right-radius: 10px;
   }
   
   .left {
@@ -230,7 +228,7 @@ text-align: justify;
     padding: 20px;
 }
 
-#offerHeading{
+.offerHeading{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,4 +237,65 @@ text-align: justify;
     padding: 10px;
     font-weight: 300;
     margin-top: 20px;
+}
+.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+  
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+.benefit{
+    font-size: 12px;
+    text-align: justify;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}  
+.benefitHead{
+    font-size: 20px;
+    font-family: "lato";
+    color: #285A43;
+    text-align: start;
+}
+
+.benefitBox{
+padding-bottom: 50px;
+padding-top: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.roomVis{
+    margin-right: 0;
+    padding-right: 0;
+    background: url( './visualisation/room.jpg' ) 50% 50%;
+    background-size: cover;
+}
+
+.alwaysFresh,
+.workSmart {
+background-color: #F8F8F8 ;
+}
+
+.benefit img{
+    margin-left: -20px;
+    padding:10px 5px 15px 0;
+}
+
+.gallery {
+  padding-top: 50px;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+}
+.view1{
+    margin-right: 0;
+    padding-right: 0;
+    background: url( './gallery/galleryview1.png' ) 50% 50%;
+    background-size: cover;
 }
