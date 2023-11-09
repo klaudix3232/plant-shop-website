@@ -13,39 +13,39 @@
     src: url(./Poppins-Regular.ttf);
 }
 
-body { 
-margin: 0;
+body {
+    margin: 0;
 
 }
 
 #startPhoto1 {
     position: absolute;
-    width:100%;
+    width: 100%;
     margin: 0;
-    margin-top:0;
+    margin-top: 0;
     z-index: -1;
     height: 100vh;
     object-fit: cover;
-    
+
 }
 
 #startPhotoMask {
     position: absolute;
-    width:100%;
+    width: 100%;
     margin: 0;
-    margin-top:0;
+    margin-top: 0;
     z-index: -1;
-    height: 100vh; 
+    height: 100vh;
     opacity: 0.34;
-    background:linear-gradient(hsla(152, 51%, 15%, 1), 
-    hsla(152, 38%, 25%, 1),
-    hsla(152, 38%, 25%, 0.3));
+    background: linear-gradient(hsla(152, 51%, 15%, 1),
+            hsla(152, 38%, 25%, 1),
+            hsla(152, 38%, 25%, 0.3));
 }
 
 
-#startphoto { 
-    margin:0;
-    margin-top:0;
+#startphoto {
+    margin: 0;
+    margin-top: 0;
 }
 
 .start-text-div {
@@ -65,30 +65,31 @@ margin: 0;
 
 h1 {
     text-align: center;
-    font-family:"lato";
+    font-family: "lato";
     color: white;
     font-size: 50px;
     text-decoration: solid;
-    padding:10px;
+    padding: 10px;
     letter-spacing: 0.05cap;
-}  
+}
 
- h3 { 
+h3 {
     margin-top: 15px;
     font-family: "poppins";
     text-align: center;
     color: white;
     font-size: 14px;
- }
- 
- .container1{
+}
+
+.container1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.button1, .button2 {
+.button1,
+.button2 {
     margin: 15px;
 
 }
@@ -101,25 +102,26 @@ h1 {
     font-family: "lato";
     font-size: 42px;
     text-align: justify;
-    color:hsla(152, 38%, 25%, 1);
-   
+    color: hsla(152, 38%, 25%, 1);
+
 }
 
 #descriptipn {
-font-family: "raleway";
-size: 15px;
-text-align: justify;
+    font-family: "raleway";
+    size: 15px;
+    text-align: justify;
 }
 
-#outdoorPlants{
-    background-color: hsla(154, 41%, 34%, 1) ;
+#outdoorPlants {
+    background-color: hsla(154, 41%, 34%, 1);
     border-radius: 2%;
     font-family: raleway;
     color: white;
     text-align: justify;
 }
 
-#potPlants, #indoorPlants{
+#potPlants,
+#indoorPlants {
     background-color: white;
     border-radius: 2%;
     font-family: raleway;
@@ -128,76 +130,79 @@ text-align: justify;
 }
 
 #indoorPlantimg,
-#outdoorPlantsimg, 
+#outdoorPlantsimg,
 #potPlantsimg {
     margin-left: -25px;
 }
+
 .photoContainer {
     display: flex;
     align-items: center;
 }
 
 .photoPlant-container {
-    width: 100%; /* Adjust the width as per your requirement */
+    width: 100%;
+    /* Adjust the width as per your requirement */
     height: 0;
-  padding-bottom: 100%; /* This creates a 1:1 aspect ratio */
-  position: relative;
- 
+    padding-bottom: 100%;
+    /* This creates a 1:1 aspect ratio */
+    position: relative;
+
 }
 
 .photoPlant-container img {
     position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  border: 0.5px solid rgb(217, 215, 215);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border: 0.5px solid rgb(217, 215, 215);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 
 
 /* CSS */
 .buyNow {
-  background: #337A5B;
-  border: 1px solid #337A5B;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 10px;
-  font-weight: 800;
-  line-height: 12px;
-  min-height: 40px;
-  outline: 0;
-  padding: 12px 14px;
-  text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
+    background: #337A5B;
+    border: 1px solid #337A5B;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 12px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
 }
 
 .buyNow:hover,
 .button-24:active {
-  background-color: initial;
-  background-position: 0 0;
-  color: black;
+    background-color: initial;
+    background-position: 0 0;
+    color: black;
 }
 
 .buyNow:active {
-  opacity: .5;
+    opacity: .5;
 }
 
-.textOffer  {
+.textOffer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -205,30 +210,31 @@ text-align: justify;
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-  
-  .left {
+}
+
+.left {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .price {
-  font-size: 10px;
-  color: gray;
+.price {
+    font-size: 10px;
+    color: gray;
 
-  }
-  
-  .plantName{
+}
+
+.plantName {
     font-size: 20px;
-    color: #337A5B; 
+    color: #337A5B;
     text-decoration: solid;
-  }
-.boxSingle{
+}
+
+.boxSingle {
     background-color: #FFFFFF;
     padding: 20px;
 }
 
-.offerHeading{
+.offerHeading {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,65 +243,369 @@ text-align: justify;
     padding: 10px;
     font-weight: 300;
     margin-top: 20px;
+    font-size: 30px;
 }
+
 .no-gutters {
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
-  }
-  
-  .no-padding {
+    font-family: "raleway";
+}
+
+.no-padding {
     padding-left: 0;
     padding-right: 0;
-  }
-.benefit{
+}
+
+.benefit {
     font-size: 12px;
     text-align: justify;
     /* padding-top: 50px;
     padding-bottom: 50px; */
-}  
-.benefitHead{
+}
+
+.benefitHead {
     font-size: 20px;
     font-family: "lato";
     color: #285A43;
     text-align: start;
 }
 
-.benefitBox{
-padding-bottom: 50px;
-padding-top: 50px;
-margin-top: 20px;
-margin-bottom: 20px;
+.benefitBox {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
-.roomVis{
+.roomVis {
     margin-right: 0;
     padding-right: 0;
-    background: url( './visualisation/room.jpg' ) 50% 50%;
+    background: url('./visualisation/room.jpg') 50% 50%;
     background-size: cover;
 }
 
 .alwaysFresh,
 .workSmart {
-background-color: #F8F8F8 ;
+    background-color: #F8F8F8;
 }
 
-.benefit img{
-    margin-left: -20px;
-    padding:10px 5px 15px 0;
+.benefit img {
+    margin-left: -15px;
+    padding: 10px 5px 15px 0;
 }
 
 .gallery {
-  padding-top: 50px;
-  margin-left: 0;
-  padding-left: 0;
-  padding-right: 0;
-  margin-right: 0;
+    padding-top: 50px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
 }
-.view1{
+
+.view1 {
     margin-right: 0;
     padding-right: 0;
-    background: url( './gallery/galleryview1.png' ) 50% 50%;
+    background: url('./gallery/galleryview1.png') 50% 50%;
     background-size: cover;
+    border: 0.5px solid black;
+
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: "lato";
+    color: #337A5B;
+}
+
+.name img {
+    padding: 20px 20px 20px 0;
+}
+
+#jessicaWatson,
+#kateSzu,
+#Grace {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.opinionText {
+    padding: 30px;
+    text-align: justify;
+    font-family: "raleway";
+    font-size: 10px;
+
+}
+
+.backgroundPlant {
+    display: flex;
+    align-items: end;
+}
+
+#jessicaWatson {
+    position: relative;
+    background-image: url("./jessicawatson/bazie.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 65%;
+}
+
+#kateSzu {
+    position: relative;
+    background-image: url("./jessicawatson/Snake_Plant.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 60%;
+}
+
+#Grace {
+    position: relative;
+    background-image: url("./jessicawatson/Bamboo.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 60%;
+
+}
+
+
+#backgroundPlant1::before {
+    opacity: 0.12;
+}
+
+#backgroundPlant2::before {
+    opacity: 0.12;
+}
+
+#backgroundPlant3::before {
+    opacity: 0.12;
+}
+
+.rewiews {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.opinion-tile {
+    background: #F8F8F8;
+    border-radius: 5%;
+}
+
+
+.comment {
+    font-size: 20px;
+    font-family: "lato";
+    color: #FFFFFF;
+    text-align: justify;
+
+}
+
+.contactForm {
+    background-image: url('./contact/contactBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100%;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#submitemail {
+    background: #337A5B;
+    border: 1px solid #337A5B;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 12px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+#submitemail:hover,
+#submitemail:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: white;
+}
+
+#submitemail:active {
+    opacity: .5;
+}
+.card-img-top {
+    width: 100%; /* Responsive image */
+    object-fit: cover; /* Cover the aspect ratio */
+    aspect-ratio: 12/ 9; /* Set a fixed aspect ratio */
+
+  }
+  .card {
+    margin-bottom: 20px; /* Spacing between cards */
+    height: 100%;
+    s
+  }
+
+  .card-title{
+    font-size: 18px;
+    font-family: "lato";
+    color: #285A43;
+    height: 60px;
+  }
+  .card-text{
+    font-size: 15px;
+    font-family: "raleway";
+    text-align: justify;
+    height:100px;
+  }
+  .card-text:last-child{
+   margin-bottom: 0;
+  height: 20px;
+  }
+
+  .button1 {
+    background: #285A43;
+    border: 1px solid #337A5B;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 12px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    height: 30px;
+    width: 180px;
+}
+
+.button1:hover,
+.button1:active {
+    background-color: #337A5B;
+    background-position: 0 0;
+    color: white;
+}
+
+.button1:active {
+    opacity: .5;
+}
+
+
+.button2 {
+    background-color: initial;
+    border: 1.2px solid #FFFFFF;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 12px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    height: 30px;
+    width: 180px;
+}
+
+ .button2:hover,
+.button2:active {
+    background-color: white;
+    background-position: 0 0;
+    color: black; 
+} 
+
+.button2:active {
+    opacity: .5;
+}
+.button2 i{
+    margin-right: 8px;
+}
+
+.footer{
+background-color: #285A43;
+margin-left: 0px;
+margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  background-image: url("./footer/Monstera\ 1.png"), url("./footer/Fern\ 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom left, bottom right;
+  background-size: 30%;
+  padding-top: 20px;
+  
+  margin-top: 30px;
+}
+
+
+.footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "lato";
+    color: white;
+    padding: 10px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.blockMenu2 {
+    text-decoration: none;
+    font-family: "lato";
+    color:#FFFFFF
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: black;
+    font-size: 10px;
+    font-family: "lato";
+    color: #FFFFFF;
+}
+.copyright p{
+    margin-bottom: 0;
 }
