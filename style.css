@@ -15,7 +15,7 @@
 
 body {
     margin: 0;
-
+    overflow-x: hidden;
 }
 
 #startPhoto1 {
@@ -114,26 +114,31 @@ h3 {
 
 #outdoorPlants {
     background-color: hsla(154, 41%, 34%, 1);
-    border-radius: 2%;
+    border-radius: 3%;
     font-family: raleway;
     color: white;
     text-align: justify;
+    padding: 2px;
+
 }
 
 #potPlants,
 #indoorPlants {
     background-color: white;
-    border-radius: 2%;
+    border-radius: 3%;
     font-family: raleway;
     color: hsla(152, 38%, 25%, 1);
     text-align: justify;
+    padding: 2px;
+    border: 0.5px solid rgb(217, 215, 215);
+
 }
 
-#indoorPlantimg,
+/* #indoorPlantimg,
 #outdoorPlantsimg,
 #potPlantsimg {
     margin-left: -25px;
-}
+} */
 
 .photoContainer {
     display: flex;
@@ -156,6 +161,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
+    aspect-ratio: 17/9;
     object-fit: cover;
     object-position: top;
     border: 0.5px solid rgb(217, 215, 215);
@@ -181,7 +187,7 @@ h3 {
     line-height: 12px;
     min-height: 40px;
     outline: 0;
-    padding: 12px 14px;
+    padding: 10px 10px;
     text-align: center;
     text-rendering: geometricprecision;
     text-transform: none;
@@ -224,7 +230,7 @@ h3 {
 }
 
 .plantName {
-    font-size: 20px;
+    font-size: 18px;
     color: #337A5B;
     text-decoration: solid;
 }
@@ -299,10 +305,8 @@ h3 {
 
 .gallery {
     padding-top: 50px;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
+    max-width: 100vw;
+
 }
 
 .view1 {
@@ -396,7 +400,7 @@ h3 {
 
 
 .comment {
-    font-size: 20px;
+    font-size: 15px;
     font-family: "lato";
     color: #FFFFFF;
     text-align: justify;
@@ -454,36 +458,44 @@ h3 {
 #submitemail:active {
     opacity: .5;
 }
-.card-img-top {
-    width: 100%; /* Responsive image */
-    object-fit: cover; /* Cover the aspect ratio */
-    aspect-ratio: 12/ 9; /* Set a fixed aspect ratio */
 
-  }
-  .card {
-    margin-bottom: 20px; /* Spacing between cards */
+.card-img-top {
+    width: 100%;
+    /* Responsive image */
+    object-fit: cover;
+    /* Cover the aspect ratio */
+    aspect-ratio: 12/ 9;
+    /* Set a fixed aspect ratio */
+
+}
+
+.card {
+    margin-bottom: 20px;
+    /* Spacing between cards */
     height: 100%;
     s
-  }
+}
 
-  .card-title{
+.card-title {
     font-size: 18px;
     font-family: "lato";
     color: #285A43;
     height: 60px;
-  }
-  .card-text{
+}
+
+.card-text {
     font-size: 15px;
     font-family: "raleway";
     text-align: justify;
-    height:100px;
-  }
-  .card-text:last-child{
-   margin-bottom: 0;
-  height: 20px;
-  }
+    height: 100px;
+}
 
-  .button1 {
+.card-text:last-child {
+    margin-bottom: 0;
+    height: 20px;
+}
+
+.button1 {
     background: #285A43;
     border: 1px solid #337A5B;
     border-radius: 6px;
@@ -549,38 +561,35 @@ h3 {
     width: 180px;
 }
 
- .button2:hover,
+.button2:hover,
 .button2:active {
     background-color: white;
     background-position: 0 0;
-    color: black; 
-} 
+    color: black;
+}
 
 .button2:active {
     opacity: .5;
 }
-.button2 i{
+
+.button2 i {
     margin-right: 8px;
 }
 
-.footer{
-background-color: #285A43;
-margin-left: 0px;
-margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  position: relative;
-  background-image: url("./footer/Monstera\ 1.png"), url("./footer/Fern\ 1.png");
-  background-repeat: no-repeat;
-  background-position: bottom left, bottom right;
-  background-size: 30%;
-  padding-top: 20px;
-  
-  margin-top: 30px;
+.footer {
+    background-color: #285A43;
+    position: relative;
+    background-image: url("./footer/Monstera\ 1.png"), url("./footer/Fern\ 1.png");
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+    background-size: 30%;
+    padding-top: 20px;
+
+    margin-top: 30px;
 }
 
 
-.footer h1{
+.footer h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -591,13 +600,14 @@ margin-right: 0px;
     margin-top: 20px;
     font-size: 30px;
 }
+
 .blockMenu2 {
     text-decoration: none;
     font-family: "lato";
-    color:#FFFFFF
+    color: #FFFFFF
 }
 
-.copyright{
+.copyright {
     margin-bottom: 0;
     padding-top: 7px;
     padding-bottom: 5px;
@@ -606,6 +616,69 @@ margin-right: 0px;
     font-family: "lato";
     color: #FFFFFF;
 }
-.copyright p{
+
+.copyright p {
     margin-bottom: 0;
+}
+
+input[type="email"]::placeholder {
+    color: #c0c0c0;
+}
+
+#emailInput {
+    background: initial;
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+.rewiews,
+.container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    
+    .rewiews,
+    .container {
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+}
+
+/* Medium devices (tablets, 600px - 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    
+    .rewiews,
+    .container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+/* Large devices (laptops/desktops, 769px and up) */
+@media only screen and (min-width: 769px) {
+
+    
+    .rewiews,
+    .container {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    
+    .rewiews,
+    .container {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
 }

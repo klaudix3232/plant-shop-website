@@ -118,7 +118,7 @@
         </div>
         <div class="photoContainer">
             <div class="row" id="photoOffer">
-                <div class="boxSingle col-sm-12 col-md-6 col-lg-3">
+                <div class="boxSingle  col-sm-6 col-md-6 col-lg-3">
                     <div class="photoPlant-container">
                         <img src="./imgToOffersection/plant1.jpg" />
                     </div>
@@ -130,7 +130,7 @@
                         <div class="buttonBuyMeNow"><button class="buyNow">Buy Now</button></div>
                     </div>
                 </div>
-                <div class="boxSingle col-sm-12 col-md-6 col-lg-3">
+                <div class="boxSingle boxSingle col-sm-6 col-md-6 col-lg-3">
                     <div class="photoPlant-container">
                         <img src="./imgToOffersection/plan2.png" />
                     </div>
@@ -220,7 +220,7 @@
 
 
 
-    <div class="container-fluid no-padding">
+    <div class="container-fluid">
         <div class="row">
             <div class="roomVis col-md-6">
                 <!-- <img src="./visualisation/room.jpg" alt="Your Photo" class="img-fluid"> -->
@@ -269,12 +269,12 @@
         </div>
     </div>
 
-    <div class="container-fluid gallery">
+    <div class="container-fluid gallery px-0">
         <div class="offerHeading">
             <h2>Our gallery view</h2>
         </div>
         <div class="row">
-            <div class="col-md-4 view1">
+            <div class="col-md-4 view1 mb-3">
                 <!-- First column -->
                 <!-- <img src="./gallery/galleryview1.png" class="img-fluid"> -->
             </div>
@@ -285,7 +285,7 @@
                         <img src="./gallery/galleryview2.png" class="img-fluid mb-3">
                     </div>
                     <div class="col-md-12">
-                        <img src="./gallery/galleryview3.png" class="img-fluid">
+                        <img src="./gallery/galleryview3.png" class="img-fluid mb-3">
                     </div>
                 </div>
             </div>
@@ -296,7 +296,7 @@
                         <img src="./gallery/galleryview4.png" class="img-fluid mb-3">
                     </div>
                     <div class="col-md-12">
-                        <img src="./gallery/galleryview5.png" class="img-fluid">
+                        <img src="./gallery/galleryview5.png" class="img-fluid mb-3">
                     </div>
                 </div>
             </div>
@@ -312,7 +312,7 @@
                 <div class="opinion-tile">
                     <div id="jessicaWatson">
                         <div class="name">
-                            <img src="./jessicawatson/Rectangle.svg" />
+                            <img src="./jessicawatson/Rectangle(5).png" />
                             <a> Jessica Watson </a>
                         </div>
                         <p class="opinionText">"Highly recommend this website for quality flowers and plants. Great
@@ -358,17 +358,19 @@
 
     <div class="container-fluid contactForm">
         <div class="container contact">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <p class="comment p-5">Enter your email address for our mailing Promo or other interesting things</p>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 col-lg-9">
-                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email"
-                            required>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <button id="submitemail" type="submit" class="btn btn-primary w-100">Submit</button>
+            <div class="row w-100">
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-4 mt-4">
+                    <p class="comment">Enter your email address for our mailing Promo or other interesting things</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
+                    <div class="row w-100">
+                        <div class="col-sm-12 col-md-9 col-lg-9 mb-4 mt-4">
+                            <input type="email" class="form-control" id="emailInput" placeholder="Enter your email"
+                                required>
+                        </div>
+                        <div class="col-sm-12 col-md-3 col-lg-3 mb-4 mt-4">
+                            <button id="submitemail" type="submit" class="btn btn-primary w-100">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -382,7 +384,7 @@
         <div class="offerHeading">Interesting blog to read </div>
         <div class="row">
             <!-- First Column -->
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
                 <div class="card">
                     <img src="blog/blog1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -396,7 +398,7 @@
 
 
             <!-- Second Column -->
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
                 <div class="card">
                     <img src="./blog/blog2.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -410,7 +412,7 @@
 
 
             <!-- Third Column -->
-            <div class="col-md-4">
+            <div class="col-md-4 mt-2">
                 <div class="card">
                     <img src="blog/blog3.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -454,8 +456,10 @@
                     <a href="#" class="d-inline m-3 blockMenu2">Call Us</a>
                 </div>
             </div>
-            <div class="col text-center copyright">
-                <p>Copyright © 2021 Lush. All rights reserved.</p>
+            <div class="row">
+                <div class="col text-center copyright">
+                    <p>Copyright © 2021 Lush. All rights reserved.</p>
+                </div>
             </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
