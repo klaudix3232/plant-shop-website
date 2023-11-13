@@ -83,18 +83,14 @@ h3 {
     padding-right: 30px;
 }
 
-.container1 {
+/* .container1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
-.button1,
-.button2 {
-    margin: 15px;
 
-}
 
 #aboutUs {
     margin-top: calc(100vh + 100px);
@@ -521,8 +517,7 @@ h3 {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    height: 30px;
-    width: 180px;
+    width: 100%;
 }
 
 .button1:hover,
@@ -560,8 +555,7 @@ h3 {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    height: 30px;
-    width: 180px;
+    width: 100%;s
 }
 
 .button2:hover,
