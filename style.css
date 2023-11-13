@@ -79,6 +79,7 @@ h3 {
     text-align: center;
     color: white;
     font-size: 14px;
+    padding: 15px;
 }
 
 .container1 {
@@ -149,7 +150,7 @@ h3 {
     width: 100%;
     /* Adjust the width as per your requirement */
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 50%;
     /* This creates a 1:1 aspect ratio */
     position: relative;
 
@@ -163,7 +164,7 @@ h3 {
     height: 100%;
     aspect-ratio: 17/9;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     border: 0.5px solid rgb(217, 215, 215);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -488,6 +489,7 @@ h3 {
     font-family: "raleway";
     text-align: justify;
     height: 100px;
+    padding:5px;
 }
 
 .card-text:last-child {
