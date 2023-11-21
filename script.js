@@ -8,9 +8,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const nav = document.querySelector('nav');
         if (navbarExpanded) {
             nav.style.backdropFilter = 'blur(0px)';
+            nav.style.webkitBackdropFilter =  'blur(0px)';
             navbarExpanded = false;
         } else {
             nav.style.backdropFilter = 'blur(100px)';
+            nav.style.webkitBackdropFilter =  'blur(100px)';
             navbarExpanded = true;
         }
     };
