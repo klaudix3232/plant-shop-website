@@ -18,6 +18,11 @@ body {
     overflow-x: hidden;
 }
 
+nav {
+    z-index: 2;
+}
+
+
 #startPhoto1 {
     position: absolute;
     width: 100%;
