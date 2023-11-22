@@ -1,4 +1,4 @@
-# plant-shop-website
+# plant-shop-website [live website](https://klaudix3232.github.io/plant-shop-website/)
 **Overview**
 
 Welcome to MyPlantShop [click here]( https://klaudix3232.github.io/plant-shop-website/) a beautifully designed plant e-commerce website crafted as a personal project to hone CSS and Bootstrap skills. Drawing upon a professional and free Figma template found online, this website is not only a testament to the practical application of web design principles but also serves as a user-friendly platform for plant enthusiasts to browse and purchase a variety of houseplants.
@@ -26,6 +26,6 @@ Welcome to MyPlantShop [click here]( https://klaudix3232.github.io/plant-shop-we
 
 - HTML5: For structuring the content of the webpage.
 - CSS3: For styling and bringing the Figma design to life.
-- Bootstrap 4/5: For responsive design components and grid layout.
+- Bootstrap 5: For responsive design components and grid layout.
 - JavaScript: For adding interactivity to the website (not the main focus of this project).
 - Git: For version control and tracking changes.
