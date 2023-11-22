@@ -18,7 +18,7 @@ Welcome to MyPlantShop, a beautifully designed plant e-commerce website crafted 
 - CSS Mastery: Push the boundaries of custom styling to create a visually stunning layout that goes beyond the Bootstrap defaults.
 - Bootstrap Proficiency: Utilize the Bootstrap framework to its full potential, demonstrating a deep understanding of its grid system, components, and utilities.
 - Responsive Techniques: Implement responsive web design techniques to ensure the website looks great on any screen size.
-- Figma to Code Translation: Accurately convert a Figma design into a functional, live website.
+- Figma to Code Translation: Accurately convert a Figma [Figma design that was used](https://www.figma.com/file/xh990DUcXDdh1wQkDdUYFG/Lush-Garden---Florist-Landing-Page-Design-(Community)?type=design&node-id=301%3A1587&mode=design&t=iJCUoCgm3sJmB0Ev-1) design into a functional, live website.
 - Web Design Principles: Apply fundamental design principles to create a cohesive and user-friendly shopping experience.
 
 
