@@ -109,33 +109,26 @@ h3 {
     text-align: justify;
 }
 
+
 #outdoorPlants {
     background-color: hsla(154, 41%, 34%, 1);
-    border-radius: 3%;
-    font-family: raleway;
     color: white;
-    text-align: justify;
-    padding: 2px;
-
 }
 
 #potPlants,
 #indoorPlants {
-    background-color: white;
-    border-radius: 3%;
-    font-family: raleway;
-    color: hsla(152, 38%, 25%, 1);
-    text-align: justify;
-    padding: 2px;
+    color: black;
     border: 0.5px solid rgb(217, 215, 215);
-
 }
 
-/* #indoorPlantimg,
-#outdoorPlantsimg,
-#potPlantsimg {
-    margin-left: -25px;
-} */
+ .boxesforplants {
+    border-radius: 10px;
+    font-family: "raleway";
+    height: 350px;
+    text-align: justify;
+    size: 15px;
+ }
+
 
 .photoContainer {
     display: flex;
@@ -223,6 +216,7 @@ h3 {
 .price {
     font-size: 10px;
     color: gray;
+    font-family: "lato";
 
 }
 
@@ -230,6 +224,7 @@ h3 {
     font-size: 18px;
     color: #337A5B;
     text-decoration: solid;
+    font-family: "lato";
 }
 
 .boxSingle {
@@ -282,6 +277,10 @@ h3 {
     margin-bottom: 20px;
 
 }
+.benefitBox a {
+    font-size: 16px;
+    font-family: "raleway";
+}
 
 .roomVis {
     margin-right: 0;
@@ -318,9 +317,9 @@ h3 {
 .name {
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
     font-family: "lato";
-    color: #337A5B;
+    color: #285A43;
 }
 
 .name img {
@@ -338,7 +337,7 @@ h3 {
     padding: 30px;
     text-align: justify;
     font-family: "raleway";
-    font-size: 10px;
+    font-size: 15px;
 
 }
 
@@ -397,10 +396,12 @@ h3 {
 
 
 .comment {
-    font-size: 15px;
-    font-family: "lato";
+    font-size: 20px;
+    font-family: "raleway";
     color: #FFFFFF;
     text-align: justify;
+    text-decoration: solid;
+    padding-right: 10;
 
 }
 
@@ -430,7 +431,7 @@ h3 {
     cursor: pointer;
     display: inline-block;
     font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 800;
     line-height: 12px;
     min-height: 40px;
@@ -624,6 +625,7 @@ input[type="email"]::placeholder {
 #emailInput {
     background: initial;
     backdrop-filter: blur(5px);
+    font-family: "raleway";
 }
 
 
