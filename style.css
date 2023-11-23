@@ -684,22 +684,3 @@ input[type="email"]::placeholder {
     }
 }
 
-@media screen and (min-width: 300px) {
-    .boxesforplants {
-        margin: 10px;
-    }
-}
-
-/* Medium screens (between 600px and 899px) */
-@media screen and (min-width: 600px) {
-    .boxesforplants {
-        margin: 16px;
-    }
-}
-
-/* Large screens (900px and above) */
-@media screen and (min-width: 900px) {
-    .boxesforplants {
-        margin: 32px;
-    }
-}
